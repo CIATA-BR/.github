@@ -1,0 +1,83 @@
+name: Relatar um problema
+description: Informe um erro, comportamento inesperado ou regressão.
+title: "[Problema]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado pelo relato. Não inclua credenciais, dados pessoais ou informações sigilosas.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o problema de forma objetiva.
+      placeholder: Explique o comportamento observado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: O que deveria acontecer?
+      placeholder: Descreva o resultado esperado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Liste uma ação por linha, na ordem em que foi realizada.
+      placeholder: |
+        1. Acesse...
+        2. Selecione...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Versão ou commit
+      placeholder: Exemplo: 1.4.0 ou abc1234
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Informe sistema operacional, navegador, dispositivo e outras versões relevantes.
+      placeholder: Exemplo: Windows 11, Firefox 140.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequência
+      options:
+        - Sempre
+        - Frequentemente
+        - Às vezes
+        - Aconteceu uma vez
+        - Não foi possível repetir
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências adicionais
+      description: Inclua logs sem dados sensíveis, mensagens de erro ou imagens com texto alternativo.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmações
+      options:
+        - label: Procurei issues semelhantes antes de abrir esta.
+          required: true
+        - label: Removi credenciais, dados pessoais e informações sigilosas.
+          required: true
