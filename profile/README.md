@@ -2,148 +2,79 @@
 
 ## Centro de Inclusão Através da Tecnologia Assistiva
 
-Bem-vindo ao GitHub oficial do **CIATA**.
+**Tecnologia acessível, conhecimento compartilhado e impacto social.**
 
-Somos uma organização sem fins lucrativos dedicada ao desenvolvimento de tecnologias acessíveis, software livre e projetos de inclusão digital para pessoas com deficiência.
+O CIATA é uma organização brasileira sem fins lucrativos que desenvolve soluções digitais, promove inclusão e transforma experiência técnica em patrimônio coletivo.
 
-Acreditamos que a tecnologia só cumpre seu propósito quando pode ser utilizada por todas as pessoas.
+Acreditamos que acessibilidade não é uma camada adicionada no fim. Ela nasce junto com cada ideia, decisão, componente e linha de código.
 
----
+> **Nenhum projeto começa do zero. Todo projeto deixa um legado.**
 
-# 🎯 Nossa missão
+## Nossa missão
 
-Desenvolver soluções tecnológicas que promovam autonomia, educação, empregabilidade, comunicação e inclusão social por meio da acessibilidade digital.
+Criar e compartilhar tecnologias que ampliem autonomia, comunicação, educação, acesso à cultura, empregabilidade e participação social das pessoas com deficiência.
 
----
+## Nossa filosofia
 
-# 🚀 Projetos
+- **Acessibilidade desde a concepção:** requisitos de acesso fazem parte da arquitetura, do conteúdo, do design, dos testes e da entrega.
+- **Conhecimento acima de código:** software muda; decisões, padrões e aprendizados devem permanecer compreensíveis e reutilizáveis.
+- **Nenhum projeto começa do zero:** cada iniciativa aproveita componentes, documentação e experiência acumulada.
+- **Todo projeto deixa um legado:** aquilo que aprendemos deve retornar à comunidade em forma de ferramentas, referências e caminhos mais curtos.
+- **Comunidade acima do individualismo:** colaboração sustentável vale mais que soluções isoladas.
+- **Tecnologia a serviço das pessoas:** inovação só tem valor quando melhora vidas reais.
 
-## 📱 Comunica-CIATA
+## Ecossistema CIATA
 
-Aplicativo de comunicação acessível para Android e iOS, desenvolvido com foco em leitores de tela, navegação por teclado e linhas Braille.
+| Iniciativa | Propósito |
+| --- | --- |
+| [Comunica-CIATA](https://github.com/CIATA-BR/Comunica-CIATA) | Ecossistema de comunicação acessível para Android e iOS, pensado para leitores de tela, teclado e linhas Braille. |
+| Biblioteca CIATA | Biblioteca digital acessível para estudo, pesquisa, cultura e lazer. |
+| Emprega CIATA | Plataforma que aproxima profissionais com deficiência e organizações comprometidas com inclusão. |
+| Portal CIATA | Presença institucional e ponto de acesso aos serviços, projetos e conteúdos da organização. |
+| [CIATA Play Toolkit](https://github.com/CIATA-BR/CIATA-Play-Toolkit) | Componentes, padrões e recursos reutilizáveis para acelerar produtos digitais acessíveis. |
+| [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS) | Linguagem visual, princípios de interação, acessibilidade e documentação compartilhada pelo ecossistema. |
+| Jieshuo | Colaboração internacional em tradução, suporte e licenciamento do leitor de telas Jieshuo. |
 
----
+## CIATA Engineering
 
-## 📚 Biblioteca CIATA
+O CIATA Engineering organiza o conhecimento técnico produzido nos projetos da instituição para que ele possa ser encontrado, compreendido, validado e reutilizado.
 
-Biblioteca digital acessível com milhares de livros em formatos inclusivos para estudo, pesquisa e lazer.
+Esse trabalho reúne:
 
----
+- princípios e decisões arquiteturais;
+- blueprints e modelos de referência;
+- padrões de acessibilidade;
+- receitas de implementação;
+- anti-padrões e armadilhas conhecidas;
+- checklists de qualidade;
+- documentação preparada para colaboração humana e uso responsável de inteligência artificial.
 
-## 💼 Emprega CIATA
+Nosso objetivo não é criar burocracia. É impedir que boas soluções desapareçam dentro de um único repositório ou dependam da memória de uma única pessoa.
 
-Plataforma voltada à empregabilidade de pessoas com deficiência, aproximando profissionais e empresas comprometidas com a inclusão.
+## Áreas de atuação
 
----
+Acessibilidade digital, tecnologia assistiva, engenharia e qualidade de software, inteligência artificial, desenvolvimento web e mobile, educação, cultura, empregabilidade, pesquisa e software livre.
 
-## 🌐 Portal CIATA
+## Tecnologias e práticas
 
-Portal institucional responsável pelo gerenciamento dos serviços, usuários e projetos da organização.
+Trabalhamos com Kotlin, Jetpack Compose, Swift, SwiftUI, PHP, Laravel, bancos de dados relacionais, GitHub Actions, serviços em nuvem, automação e ferramentas de inteligência artificial.
 
----
+Nossas práticas incluem WCAG, testes com leitores de tela, navegação por teclado, compatibilidade com Braille, foco previsível, conteúdo localizável, linguagem clara, testes automatizados e revisão contínua de acessibilidade.
 
-## 🖥 Jieshuo
+## Como contribuir
 
-Portal internacional para tradução, licenciamento e colaboração do leitor de telas Jieshuo.
+Você pode colaborar desenvolvendo software, revisando documentação, reportando problemas, traduzindo conteúdos, realizando testes de acessibilidade, propondo melhorias ou divulgando os projetos.
 
----
+Antes de contribuir, consulte as orientações do repositório escolhido. Valorizamos descrições claras, mudanças pequenas e verificáveis, respeito às decisões registradas e acessibilidade em todas as etapas.
 
-## 🧩 CIATA Play Toolkit
+## Contato
 
-Biblioteca de componentes reutilizáveis para acelerar o desenvolvimento de aplicações acessíveis.
-
----
-
-# 💙 Nossas áreas de atuação
-
-- ♿ Acessibilidade Digital
-- 🤖 Inteligência Artificial
-- 💻 Engenharia de Software
-- 🧪 Qualidade de Software (QA)
-- 📱 Desenvolvimento Mobile
-- 🌐 Desenvolvimento Web
-- 📚 Educação
-- 💼 Inclusão Profissional
-- 📖 Biblioteca Digital
-- 🔬 Pesquisa em Tecnologia Assistiva
-- 🌍 Software Livre
-
----
-
-# 🤝 Como contribuir
-
-Existem várias maneiras de participar do CIATA.
-
-- Desenvolvendo software
-- Reportando problemas
-- Melhorando a documentação
-- Traduzindo projetos
-- Realizando testes de acessibilidade
-- Divulgando nossos projetos
-- Tornando-se voluntário
-
-Toda contribuição é bem-vinda.
+- Site: [ciata.org.br](https://ciata.org.br)
+- E-mail: [contato@ciata.org.br](mailto:contato@ciata.org.br)
+- LinkedIn: [CIATA](https://linkedin.com/company/ciatabr)
+- X: [@ciatabr](https://x.com/ciatabr)
+- Facebook: [CIATA](https://facebook.com/ciatabr)
 
 ---
 
-# 🌎 Tecnologias
-
-### Mobile
-
-- Kotlin
-- Swift
-- Jetpack Compose
-- SwiftUI
-
-### Backend
-
-- Laravel
-- PHP
-- MySQL
-
-### Cloud & DevOps
-
-- GitHub Actions
-- Azure
-- Google Cloud
-- Google Play Console
-- Apple Developer Connect
-- Docker
-
-### Especialidades
-
-- WCAG
-- Tecnologias Assistivas
-- UX Inclusiva
-- Inteligência Artificial
-- Metodologias ágeis
-- Desenvolvimento 
-
----
-
-# 🌱 Nossa visão
-
-O CIATA nasceu com o propósito de oferecer oportunidades por meio da tecnologia.
-
-Além dos projetos de software livre desenvolvidos nesta organização, atuamos também em iniciativas voltadas à educação, tecnologia assistiva, biblioteca acessível, inclusão profissional, pesquisa, capacitação e desenvolvimento de novas soluções para ampliar a autonomia das pessoas com deficiência.
-
----
-
-# 📬 Contato
-
-🌐 https://ciata.org.br
-
-📧 contato@ciata.org.br
-
-💼 LinkedIn  
-https://linkedin.com/company/ciatabr
-
-𝕏 X  
-https://x.com/ciatabr
-
-📘 Facebook  
-https://facebook.com/ciatabr
-
----
-
-> **"Construindo tecnologia aberta para tornar a inclusão digital uma realidade."**
+**Construindo tecnologia acessível para hoje. Preservando conhecimento para amanhã. Compartilhando experiência para sempre.**
