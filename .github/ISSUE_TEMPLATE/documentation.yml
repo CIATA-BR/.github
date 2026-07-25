@@ -1,0 +1,44 @@
+name: Melhorar documentação
+description: Informe conteúdo ausente, incorreto, desatualizado ou difícil de compreender.
+title: "[Documentação]: "
+labels:
+  - documentation
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Onde está o problema?
+      description: Informe arquivo, página, seção ou endereço.
+      placeholder: Exemplo: README, seção Instalação.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: O que precisa ser melhorado?
+      placeholder: Explique o que está ausente, incorreto, ambíguo ou desatualizado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Sugestão de melhoria
+      description: Quando possível, proponha uma redação, exemplo ou estrutura alternativa.
+
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Impacto na acessibilidade
+      description: Considere hierarquia de títulos, links descritivos, linguagem clara, texto alternativo, tabelas e instruções que dependam de percepção visual.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificações
+      options:
+        - label: Procurei relato semelhante antes de abrir esta issue.
+          required: true
+        - label: A issue não contém dados pessoais, credenciais ou informações sigilosas.
+          required: true

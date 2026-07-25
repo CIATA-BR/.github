@@ -1,0 +1,37 @@
+name: Fazer uma pergunta
+description: Tire uma dúvida sobre uso, contribuição ou comportamento do projeto.
+title: "[Dúvida]: "
+labels:
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Qual é a sua dúvida?
+      placeholder: Explique o que você precisa compreender.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Informe o que você já tentou, qual documentação consultou e em que ponto ficou bloqueado.
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Ambiente, quando relevante
+      placeholder: Exemplo: Windows 11, NVDA 2026.1, Firefox 140.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificações
+      options:
+        - label: Consultei a documentação e procurei perguntas semelhantes.
+          required: true
+        - label: Removi dados pessoais, credenciais e informações sigilosas.
+          required: true

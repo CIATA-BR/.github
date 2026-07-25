@@ -31,8 +31,8 @@ Criar e compartilhar tecnologias que ampliem autonomia, comunicação, educaçã
 | Biblioteca CIATA | Biblioteca digital acessível para estudo, pesquisa, cultura e lazer. |
 | Emprega CIATA | Plataforma que aproxima profissionais com deficiência e organizações comprometidas com inclusão. |
 | Portal CIATA | Presença institucional e ponto de acesso aos serviços, projetos e conteúdos da organização. |
-| [CIATA Play Toolkit](https://github.com/CIATA-BR/CIATA-Play-Toolkit) | Componentes, padrões e recursos reutilizáveis para acelerar produtos digitais acessíveis. |
-| [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS) | Linguagem visual, princípios de interação, acessibilidade e documentação compartilhada pelo ecossistema. |
+| [CIATA Play Toolkit](https://github.com/CIATA-BR/CIATA-Play-Toolkit) | Ferramenta acessível para preparar, validar, documentar e acompanhar publicações no Google Play. |
+| [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS) | Fonte compartilhada de identidade, interação, acessibilidade, engenharia e documentação do ecossistema. |
 | Jieshuo | Colaboração internacional em tradução, suporte e licenciamento do leitor de telas Jieshuo. |
 
 ## CIATA Engineering
@@ -45,7 +45,7 @@ Esse trabalho reúne:
 - blueprints e modelos de referência;
 - padrões de acessibilidade;
 - receitas de implementação;
-- anti-padrões e armadilhas conhecidas;
+- antipadrões e armadilhas conhecidas;
 - checklists de qualidade;
 - documentação preparada para colaboração humana e uso responsável de inteligência artificial.
 
@@ -65,7 +65,7 @@ Nossas práticas incluem WCAG, testes com leitores de tela, navegação por tecl
 
 Você pode colaborar desenvolvendo software, revisando documentação, reportando problemas, traduzindo conteúdos, realizando testes de acessibilidade, propondo melhorias ou divulgando os projetos.
 
-Antes de contribuir, consulte as orientações do repositório escolhido. Valorizamos descrições claras, mudanças pequenas e verificáveis, respeito às decisões registradas e acessibilidade em todas as etapas.
+Consulte o [guia institucional de contribuição](../CONTRIBUTING.md) e as orientações específicas do repositório escolhido. Valorizamos descrições claras, mudanças pequenas e verificáveis, respeito às decisões registradas e acessibilidade em todas as etapas.
 
 ## Contato
 

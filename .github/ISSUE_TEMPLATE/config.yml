@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suporte e contato institucional
+    url: https://ciata.org.br
+    about: Consulte os canais oficiais para parcerias, imprensa, voluntariado e assuntos institucionais.
+  - name: Relato privado de segurança
+    url: mailto:contato@ciata.org.br?subject=Seguran%C3%A7a
+    about: Não publique vulnerabilidades, credenciais ou dados sensíveis em issues abertas.
