@@ -1,0 +1,51 @@
+name: Propor correção de tradução
+description: Informe texto ausente, incorreto, inconsistente ou inadequado em outro idioma.
+title: "[Tradução]: "
+labels:
+  - translation
+body:
+  - type: input
+    id: language
+    attributes:
+      label: Idioma e localidade
+      placeholder: Exemplo: português do Brasil (pt-BR).
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Onde está o texto?
+      placeholder: Informe tela, arquivo, chave ou seção.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Texto atual
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Texto proposto
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto e justificativa
+      description: Explique tom, significado, limite de espaço, gênero, plural ou comportamento de leitor de tela relevante.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificações
+      options:
+        - label: Considerei o contexto de uso, não apenas a tradução literal.
+          required: true
+        - label: A issue não contém dados pessoais, credenciais ou informações sigilosas.
+          required: true
