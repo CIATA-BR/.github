@@ -1,0 +1,62 @@
+name: Propor melhoria
+description: Sugira uma funcionalidade, ajuste de experiência ou evolução técnica.
+title: "[Proposta]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual problema precisa ser resolvido?
+      description: Explique a necessidade antes de descrever a solução.
+      placeholder: Hoje, pessoas que tentam... encontram dificuldade porque...
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Quem é afetado?
+      placeholder: Descreva os públicos, contextos e tecnologias assistivas relevantes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Solução proposta
+      description: Explique o comportamento desejado sem depender apenas de aparência visual.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Informe outros caminhos avaliados e por que não foram escolhidos.
+
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Considerações de acessibilidade
+      description: Considere teclado, foco, leitor de tela, Braille, contraste, ampliação, linguagem clara e redução de esforço.
+    validations:
+      required: true
+
+  - type: textarea
+    id: success
+    attributes:
+      label: Como saberemos que funcionou?
+      placeholder: Descreva critérios observáveis e verificáveis.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verificações
+      options:
+        - label: Procurei propostas semelhantes antes de abrir esta issue.
+          required: true
+        - label: A proposta não contém dados pessoais, credenciais ou informações sigilosas.
+          required: true
