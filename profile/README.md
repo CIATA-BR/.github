@@ -1,12 +1,12 @@
+![CIATA: tecnologia acessível, conhecimento compartilhado e impacto social. Nenhum projeto começa do zero. Todo projeto deixa um legado.](assets/ciata-banner.svg)
+
 # CIATA
 
 ## Centro de Inclusão Através da Tecnologia Assistiva
 
-**Tecnologia acessível, conhecimento compartilhado e impacto social.**
+O **CIATA** é uma organização brasileira sem fins lucrativos que desenvolve tecnologia, promove inclusão e transforma experiência prática em conhecimento aberto e reutilizável.
 
-O CIATA é uma organização brasileira sem fins lucrativos que desenvolve soluções digitais, promove inclusão e transforma experiência técnica em patrimônio coletivo.
-
-Acreditamos que acessibilidade não é uma camada adicionada no fim. Ela nasce junto com cada ideia, decisão, componente e linha de código.
+Acessibilidade não entra no fim da fila. Ela nasce com o requisito, atravessa arquitetura, design, conteúdo, desenvolvimento e testes, e permanece durante toda a evolução do produto.
 
 > **Nenhum projeto começa do zero. Todo projeto deixa um legado.**
 
@@ -14,14 +14,14 @@ Acreditamos que acessibilidade não é uma camada adicionada no fim. Ela nasce j
 
 Criar e compartilhar tecnologias que ampliem autonomia, comunicação, educação, acesso à cultura, empregabilidade e participação social das pessoas com deficiência.
 
-## Nossa filosofia
+## Como trabalhamos
 
-- **Acessibilidade desde a concepção:** requisitos de acesso fazem parte da arquitetura, do conteúdo, do design, dos testes e da entrega.
-- **Conhecimento acima de código:** software muda; decisões, padrões e aprendizados devem permanecer compreensíveis e reutilizáveis.
-- **Nenhum projeto começa do zero:** cada iniciativa aproveita componentes, documentação e experiência acumulada.
-- **Todo projeto deixa um legado:** aquilo que aprendemos deve retornar à comunidade em forma de ferramentas, referências e caminhos mais curtos.
-- **Comunidade acima do individualismo:** colaboração sustentável vale mais que soluções isoladas.
-- **Tecnologia a serviço das pessoas:** inovação só tem valor quando melhora vidas reais.
+- **Pessoas antes da tecnologia:** inovação só tem valor quando melhora experiências reais.
+- **Acessibilidade desde a concepção:** acesso é requisito de arquitetura, design, conteúdo, código, testes e entrega.
+- **Conhecimento como patrimônio:** decisões, padrões, evidências e aprendizados devem sobreviver aos projetos.
+- **Reutilização antes da reinvenção:** cada iniciativa começa a partir do que o ecossistema já aprendeu.
+- **Qualidade verificável:** testes automáticos ajudam, mas a validação humana continua indispensável.
+- **Colaboração responsável com IA:** agentes trabalham com fontes canônicas, limites claros e revisão proporcional ao risco.
 
 ## Ecossistema CIATA
 
@@ -32,40 +32,38 @@ Criar e compartilhar tecnologias que ampliem autonomia, comunicação, educaçã
 | Emprega CIATA | Plataforma que aproxima profissionais com deficiência e organizações comprometidas com inclusão. |
 | Portal CIATA | Presença institucional e ponto de acesso aos serviços, projetos e conteúdos da organização. |
 | [CIATA Play Toolkit](https://github.com/CIATA-BR/CIATA-Play-Toolkit) | Ferramenta acessível para preparar, validar, documentar e acompanhar publicações no Google Play. |
-| [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS) | Fonte compartilhada de identidade, interação, acessibilidade, engenharia e documentação do ecossistema. |
+| [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS) | Fonte oficial dos padrões reutilizáveis de marca, design, engenharia, acessibilidade e conhecimento do ecossistema. |
 | Jieshuo | Colaboração internacional em tradução, suporte e licenciamento do leitor de telas Jieshuo. |
 
 ## CIATA Engineering
 
-O CIATA Engineering organiza o conhecimento técnico produzido nos projetos da instituição para que ele possa ser encontrado, compreendido, validado e reutilizado.
+O **CIATA Engineering** organiza o conhecimento técnico produzido nos projetos para que ele possa ser encontrado, compreendido, validado e reutilizado por pessoas, equipes e agentes de inteligência artificial.
 
-Esse trabalho reúne:
+O trabalho é estruturado em cinco sistemas conectados:
 
-- princípios e decisões arquiteturais;
-- blueprints e modelos de referência;
-- padrões de acessibilidade;
-- receitas de implementação;
-- antipadrões e armadilhas conhecidas;
-- checklists de qualidade;
-- documentação preparada para colaboração humana e uso responsável de inteligência artificial.
+1. **Brand System:** identidade institucional e aplicação consistente da marca.
+2. **Design System:** interação, conteúdo, comportamento, componentes e experiência.
+3. **Engineering System:** arquitetura, qualidade, documentação, segurança, entrega e operação.
+4. **Accessibility Engineering System:** normas, plataformas, tecnologias assistivas, padrões, testes, evidências e conhecimento aplicado.
+5. **Knowledge System:** decisões, pesquisas, receitas, casos reais, antipadrões e lições aprendidas.
 
-Nosso objetivo não é criar burocracia. É impedir que boas soluções desapareçam dentro de um único repositório ou dependam da memória de uma única pessoa.
+A fonte canônica desses padrões é o [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS).
 
-## Áreas de atuação
+## Acessibilidade em prática
 
-Acessibilidade digital, tecnologia assistiva, engenharia e qualidade de software, inteligência artificial, desenvolvimento web e mobile, educação, cultura, empregabilidade, pesquisa e software livre.
+Nossas práticas incluem WCAG, navegação por teclado, foco previsível, linguagem clara, conteúdo localizável, compatibilidade com Braille e testes com tecnologias como TalkBack, VoiceOver, NVDA, JAWS, Narrator e Orca.
 
-## Tecnologias e práticas
+Barreiras de acessibilidade são tratadas como problemas funcionais. Verificações automáticas apoiam o processo, mas não substituem testes manuais nem a participação de pessoas com deficiência.
 
-Trabalhamos com Kotlin, Jetpack Compose, Swift, SwiftUI, PHP, Laravel, bancos de dados relacionais, GitHub Actions, serviços em nuvem, automação e ferramentas de inteligência artificial.
+## Tecnologias
 
-Nossas práticas incluem WCAG, testes com leitores de tela, navegação por teclado, compatibilidade com Braille, foco previsível, conteúdo localizável, linguagem clara, testes automatizados e revisão contínua de acessibilidade.
+Trabalhamos com Kotlin, Jetpack Compose, Swift, SwiftUI, PHP, Laravel, bancos de dados relacionais, GitHub Actions, serviços em nuvem, automação e inteligência artificial.
 
 ## Como contribuir
 
-Você pode colaborar desenvolvendo software, revisando documentação, reportando problemas, traduzindo conteúdos, realizando testes de acessibilidade, propondo melhorias ou divulgando os projetos.
+Contribuições de código, documentação, tradução, design, pesquisa, testes, relatos de barreiras e propostas de melhoria são bem-vindas.
 
-Consulte o [guia institucional de contribuição](../CONTRIBUTING.md) e as orientações específicas do repositório escolhido. Valorizamos descrições claras, mudanças pequenas e verificáveis, respeito às decisões registradas e acessibilidade em todas as etapas.
+Consulte o [guia institucional de contribuição](../CONTRIBUTING.md) e as orientações específicas do repositório escolhido. Valorizamos mudanças focadas, descrições claras, evidências verificáveis, respeito às decisões registradas e acessibilidade em todas as etapas.
 
 ## Contato
 
