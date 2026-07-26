@@ -35,6 +35,31 @@ Criar e compartilhar tecnologias que ampliem autonomia, comunicação, educaçã
 | [CIATA Design System](https://github.com/CIATA-BR/CIATA-DS) | Fonte oficial dos padrões reutilizáveis de marca, design, engenharia, acessibilidade e conhecimento do ecossistema. |
 | Jieshuo | Colaboração internacional em tradução, suporte e licenciamento do leitor de telas Jieshuo. |
 
+## Plataforma de engenharia
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://github.com/CIATA-BR/CIATA-Play-Toolkit">
+        <img src="assets/logo-ciata-play-toolkit.svg" width="220" alt="CIATA Play Toolkit: robô do CIATA trabalhando em um celular com ferramentas e checklist de publicação.">
+      </a>
+      <br>
+      <strong>CIATA Play Toolkit</strong>
+      <br>
+      Ferramentas para preparar, validar, documentar e publicar aplicativos com qualidade.
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/CIATA-BR/CIATA-DS">
+        <img src="assets/logo-ciata-ds.svg" width="220" alt="CIATA Design System: robô do CIATA organizando documentos, componentes, padrões, diretrizes e um mapa de arquitetura.">
+      </a>
+      <br>
+      <strong>CIATA Design System</strong>
+      <br>
+      Organização, padrões e direção compartilhada para todos os projetos do ecossistema.
+    </td>
+  </tr>
+</table>
+
 ## CIATA Engineering
 
 O **CIATA Engineering** organiza o conhecimento técnico produzido nos projetos para que ele possa ser encontrado, compreendido, validado e reutilizado por pessoas, equipes e agentes de inteligência artificial.
